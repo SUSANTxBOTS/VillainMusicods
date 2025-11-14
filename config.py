@@ -7,13 +7,13 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("21134445"))
+API_HASH = getenv("231c18ea7273824491d6bf05425ab74e")
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","Nooneisminee")
+OWNER_USERNAME = getenv("OWNER_USERNAME","xprimehyper")
 # --------------------------------------------------------
 BOT_USERNAME = getenv("BOT_USERNAME","odsmusicbot")
 # --------------------------------------------------------
@@ -27,18 +27,18 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002311769574))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002754355006))
 
 # Get this value from @PURVI_HELP_BOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 5909658683))
+OWNER_ID = int(getenv("OWNER_ID", 7968389767))
 
 
 # make your bots privacy from telegra.ph and put your url here 
-PRIVACY_LINK = getenv("PRIVACY_LINK", "https://graph.org/PRIVACY-FOR-TEAM-PURVI-BOTS-09-18")
+PRIVACY_LINK = getenv("PRIVACY_LINK", "https://github.com/SUSANTxBOTS/VillainMusicods")
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_APP_NAME = getenv("")
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
@@ -51,8 +51,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "Iamhyper777")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/DragonByteGc")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/DragonByte_Network")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/dByte_Group")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -90,10 +90,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/iknaae.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/9ixgki.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/iknaae.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/f61okh.mp4"
 )
 PLAYLIST_IMG_URL = "https://files.catbox.moe/fcawaj.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/iknaae.jpg"
